@@ -8,6 +8,13 @@ public class GUI_doble extends javax.swing.JFrame {
         initComponents();
         check.setVisible(false);
         estado_correo.setVisible(false);
+        buttonGroup1.add(RadioButton_opc1);
+        buttonGroup1.add(RadioButton_opc2);
+        buttonGroup1.add(RadioButton_opc3);
+        
+        buttonGroup_duplicado.add(RadioButton_opc1_dup);
+        buttonGroup_duplicado.add(RadioButton_opc2_dup);
+        buttonGroup_duplicado.add(RadioButton_opc3_dup);
     }
 
     /**
@@ -19,6 +26,8 @@ public class GUI_doble extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        buttonGroup_duplicado = new javax.swing.ButtonGroup();
         Panel_principal = new javax.swing.JPanel();
         RadioButton_opc1 = new javax.swing.JRadioButton();
         RadioButton_opc2 = new javax.swing.JRadioButton();
@@ -451,6 +460,8 @@ public class GUI_doble extends javax.swing.JFrame {
     private javax.swing.JSpinner Spinner;
     private javax.swing.JSpinner Spinner_duplicado;
     private javax.swing.JTextField Textfield_duplicado;
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup_duplicado;
     private javax.swing.JLabel check;
     private javax.swing.JLabel estado_correo;
     private javax.swing.JSeparator jSeparator1;
